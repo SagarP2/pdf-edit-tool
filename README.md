@@ -2,6 +2,7 @@ The PDF Edit Tool is a React.js and Node.js web application designed to edit, an
 
 🚀 Features
 📝 Edit PDFs – Modify text, images, and layout within PDF files.
+
 🔍 Annotate PDFs – Add highlights, comments, and shapes for better collaboration.
 📑 Merge & Split PDFs – Combine multiple PDFs or extract pages as needed.
 📤 Export & Download – Save and export edited PDFs in various formats.
