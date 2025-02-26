@@ -4,9 +4,13 @@ The PDF Edit Tool is a React.js and Node.js web application designed to edit, an
 📝 Edit PDFs – Modify text, images, and layout within PDF files.
 
 🔍 Annotate PDFs – Add highlights, comments, and shapes for better collaboration.
+
 📑 Merge & Split PDFs – Combine multiple PDFs or extract pages as needed.
+
 📤 Export & Download – Save and export edited PDFs in various formats.
+
 🔒 User Authentication – Secure login system with role-based access.
+
 🌐 Responsive UI – Modern and intuitive design using React.js.
 
 🛠️ Installation Guide
@@ -22,17 +26,23 @@ Steps to Set Up
 
 1️⃣ Clone the Repository:
 git clone https://github.com/SagarP2/pdf-edit-tool.git
+
 cd pdf-edit-tool
 
 2️⃣ Install Dependencies:
+
 npm install
 
 3️⃣ Start the Backend Server:
+
 cd backend  
+
 npm start
 
 4️⃣ Start the Frontend:
+
 cd frontend  
+
 npm start
 
 📌 About
