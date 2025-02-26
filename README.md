@@ -14,14 +14,21 @@ The PDF Edit Tool is a React.js and Node.js web application designed to edit, an
 🌐 Responsive UI – Modern and intuitive design using React.js.
 
 🛠️ Installation Guide
+
 Prerequisites
+
 Ensure you have the following installed:
 
 Node.js (>= v14)
+
 MongoDB (or any preferred database)
+
 Git
+
 React.js (Frontend)
+
 Express.js (Backend)
+
 Steps to Set Up
 
 1️⃣ Clone the Repository:
