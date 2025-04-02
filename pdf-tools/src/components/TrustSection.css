@@ -1,0 +1,44 @@
+.trust-section {
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  background-color: #5aa0b7;
+}
+
+.trust-section h2 {
+  font-size: 2em;
+  color: #ffffff;
+}
+
+.trust-section p {
+  font-size: 1.1em;
+  color: #ffffff;
+  max-width: 470px;
+  margin: 0 auto 12px;
+}
+
+.logomain {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .trust-section h2 {
+    font-size: 1.5em;
+  }
+
+  .trust-section p {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .trust-section h2 {
+    font-size: 1.2em;
+  }
+
+  .trust-section p {
+    font-size: 0.9em;
+  }
+}
