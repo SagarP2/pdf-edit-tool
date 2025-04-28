@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "buildCommand": "cd pdf-tools && npm install && npm run build",
+  "outputDirectory": "pdf-tools/build",
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
+} 

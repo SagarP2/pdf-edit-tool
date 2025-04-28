@@ -1,0 +1,29 @@
+{
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "dependencies": {
+    "@react-pdf/renderer": "^4.3.0",
+    "axios": "^1.9.0",
+    "docx": "^9.4.1",
+    "docx-preview": "^0.3.5",
+    "express": "^5.1.0",
+    "file-saver": "^2.0.5",
+    "html2pdf.js": "^0.10.3",
+    "jspdf": "^3.0.1",
+    "jspdf-autotable": "^5.0.2",
+    "jszip": "^3.10.1",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^5.2.133",
+    "pptxgenjs": "^3.12.0",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-pdf": "^9.2.1",
+    "react-router-dom": "^7.5.2",
+    "react-scripts": "^5.0.1",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "build": "cd pdf-tools && npm install && npm run build"
+  }
+}

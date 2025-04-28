@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import * as pdfjsLib from "pdfjs-dist";
 import "./index.css";
@@ -38,7 +38,11 @@ import ComparePDF from "./Tools/ComparePDF";
 const pdfWorkerVersion = '3.11.174';  // Use the same version as the one you have installed
 pdfjsLib.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfWorkerVersion}/pdf.worker.min.js`;
 
-ReactDOM.render(
+// Create a root
+const root = createRoot(document.getElementById("root"));
+
+// Render the app
+root.render(
   <Router>
     <Routes>
       <Route path="/" element={<Home />} />
@@ -76,6 +80,5 @@ ReactDOM.render(
       />
       <Route path="/ComparePDF" element={<ComparePDF />} />
     </Routes>
-  </Router>,
-  document.getElementById("root")
+  </Router>
 );
